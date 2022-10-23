@@ -113,6 +113,7 @@ async function user_stats()
  console.log(max_link);
  console.log(m.size); // Attempted
  console.log(correct_attempts); // Total Correct Questions!
+      
       google.charts.load('current', {'packages':['table']});
       google.charts.setOnLoadCallback(drawTable);
 
@@ -159,7 +160,7 @@ async function user_stats()
 
 
  }
-// M
+
 // For Dark Mode!
 const toggleSwitch =
  document.querySelector('.theme-slider input[type="checkbox"]');
