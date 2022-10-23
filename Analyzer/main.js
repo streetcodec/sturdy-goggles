@@ -24,7 +24,7 @@ async function getData()
      
     user_stats(); 
    //document.getElementById("R4").innerHTML = ranks;
-   //  let myobj1 = await fetch(` https://codeforces.com/api/user.status?handle=${handle}&from=1&count=10`)
+   //  let myobj1 = await fetch(`https://codeforces.com/api/user.status?handle=${handle}&from=1&count=10`)
    //  let Text1 = await myobj1.text();
    //  document.getElementById("R2").innerHTML = Text1;
 }
