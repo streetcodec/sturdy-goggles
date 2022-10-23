@@ -8,7 +8,7 @@ async function getData()
   ratings = [];
   ranks = [];
   let handle = document.getElementById("unameid").value;
-	let myobj = await fetch(`http://codeforces.com/api/user.rating?handle=${handle}`);
+	let myobj = await fetch(`https://codeforces.com/api/user.rating?handle=${handle}`);
 	//console.log(`http://codeforces.com/api/user.rating?handle=${handle}`);
 	let Text = await myobj.text();
 	//console.log(myobj);
